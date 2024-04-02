@@ -1,0 +1,33 @@
+.content{
+    max-width: 50em;
+    text-align: left;
+    padding-top: 10em;
+    padding-left: 25em;
+    h1 {
+        text-align: left;
+        padding-left: 2em;
+        margin-left: .25em;
+        color: rgb(45, 209, 135);
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size:50px;
+    }
+    h1:hover{
+        color: rgb(255, 255, 255);
+    }
+    p{
+        color:#fff;
+        #underlined{
+            font-weight: bold;
+            color:rgb(176, 176, 31);
+        }
+    }
+
+    #logo{
+        position: absolute;
+        margin-top: 1em;
+        width: 64px;
+        height: 64px;
+    }
+
+}
