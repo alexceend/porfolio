@@ -13,7 +13,8 @@ function MyProjects() {
             </Col>
             <Col id={styles["details"]}>
               <h1>DANNY'S FROG</h1>
-              <p>holap</p>
+              <p>Juego desarrollado en java con la idea de un amigo mio, Dani</p>
+              <a href="https://github.com/alexceend/RanitaDeDani" target="_blank">GitHub</a>
             </Col>
           </Row>
         </Container>

@@ -5,12 +5,15 @@
 #photo{
     width: 128px;
     height: 128px;
-    margin-left: 15em;
+    margin-left: 30em;
 }
 
 #details{
     h1{
-        color: purple;
+        color: rgb(15, 0, 128);
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: 3px 3px 5px rgb(38, 0, 43);
     }
     font-size: 15px;
     color: whitesmoke;
