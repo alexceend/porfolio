@@ -11,8 +11,9 @@ function MyProjects() {
             <Col>
               <Image src={DannysFrogImage} alt="dannys frog image" id={styles["photo"]} />
             </Col>
-            <Col>
-              <p id={styles["details"]}>holap</p>
+            <Col id={styles["details"]}>
+              <h1>DANNY'S FROG</h1>
+              <p>holap</p>
             </Col>
           </Row>
         </Container>

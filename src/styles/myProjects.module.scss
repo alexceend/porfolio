@@ -5,9 +5,14 @@
 #photo{
     width: 128px;
     height: 128px;
+    margin-left: 15em;
 }
 
 #details{
+    h1{
+        color: purple;
+    }
     font-size: 15px;
     color: whitesmoke;
+    text-align: left;
 }
