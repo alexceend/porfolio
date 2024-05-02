@@ -1,21 +1,44 @@
 #containers{
     margin-top: 7em;
+    margin-bottom: 3em;
 }
 
+
 #photo{
-    width: 128px;
-    height: 128px;
+    width: 256px;
+    height: 256px;
     margin-left: 30em;
+    transition-timing-function: ease-out;
+    transition: 0.2s;
+    transform: scale(1);
+}
+
+#photo:hover{
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+    transform: scale(1.25);
 }
 
 #details{
     h1{
-        color: rgb(15, 0, 128);
+        color: rgb(117, 207, 39);
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
         text-shadow: 3px 3px 5px rgb(38, 0, 43);
     }
-    font-size: 15px;
+    font-size: 21px;
     color: whitesmoke;
     text-align: left;
+
+    a{
+        text-decoration: none;
+        margin-right: 2em;
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 1em;
+    }
+}
+
+#Row{
+    margin-bottom: 1em;
 }
