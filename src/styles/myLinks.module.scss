@@ -1,9 +1,11 @@
 #containers{
-    position: relative;
+    position: absolute;
     text-align: left;
     padding-left: 7em;
     max-width: 30em;
     margin-left: 3em;
+    left: 50%;
+    transform: translate(-50%,0);
 }
 
 
@@ -11,6 +13,24 @@
     padding-top: 15px;
     margin-bottom: 1em;
     margin-right: 16em;/*Para que el icono quede pegado*/
+}
+
+#RowMain{
+    color: white;
+    text-shadow: 1px 2px 5px rgb(90, 3, 79);
+    padding-top: 15px;
+    margin-bottom: 1em;
+    transform: translate(-10%,0);
+}
+
+#RowDots{
+    color: white;
+    text-shadow: 1px 2px 5px rgb(90, 3, 79);
+    padding-top: 15px;
+    margin-bottom: 1em;
+    padding-top: 15px;
+    margin-bottom: 1em;
+    transform: translate(10%,0);
 }
 
 #image{

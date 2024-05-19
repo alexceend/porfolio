@@ -31,6 +31,20 @@
         height: 64px;
     }
 
+    #boton{
+        text-decoration: none;
+        box-sizing: border-box;
+        border: 2px solid #fff;
+        color: white;
+        border-radius: 5px;
+        border-color: #5a033b;
+        background-color: rgb(252, 97, 255);
+        box-shadow: 1px 2px 5px white;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 3px;
+    }
+
 }
 
 @media screen and (max-width: 1200px){

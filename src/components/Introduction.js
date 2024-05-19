@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from '../styles/introduction.module.scss';
 import { ReactComponent as MySvg} from '../assets/law.svg';
+import { Button } from "react-bootstrap";
 
 function Test() {
     return (
@@ -14,6 +15,22 @@ function Test() {
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
             </p>
+            <div>
+                <table >
+                    <tr>
+                        <th>
+                            <a href="mailto:alexceend@gmail.com" target="_blank" id={styles["boton"]}>
+                                Contactame!
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://github.com/alexceend" target="_blank" id={styles["boton"]}>
+                                Github!
+                            </a>
+                        </th>
+                    </tr>
+                </table>
+            </div>
         </div>
     );
 }
